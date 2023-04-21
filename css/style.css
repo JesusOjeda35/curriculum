@@ -59,10 +59,115 @@ nav{
     height: 100px;
     width: 100px;
 }
+/*s ############## education """"""""""""""""""*/
 
+.section-education{
+    background-color: #6d6d6d;
+}
+
+.section-education .tittle{
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.content-education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.education{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.education i{
+    border: 2px solid #d03d3d;
+    border-radius: 50%;
+    background-color: #d03d3d;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.education:hover{
+    background-color: #d03d3d;
+    box-shadow: 0 0 8px gray;
+    transition: all ease-in-out .4s;
+    color: #fff;
+}
+
+.content-education .education a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.content-education .education a:hover{
+    background-color: #fff;
+    transition: all ease-in-out .2s;
+}
+/* ############################## CERTIFICADOS ########################*/
+
+.section-certificates .tittle{
+    display: block;
+    margin: 15px 0 0 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-certificates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.certificates{
+    width: 22%;
+    border-radius: 5px;
+    border: 2px solid #d03d3d;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+}
+
+.certificates img{
+    height: 250px;
+    width: auto;
+}
+
+.certificates a{
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+.certificates:hover{
+    background-color: #d03d3d;
+    box-shadow: 0 0 8px #d03d3d;
+    color: #fff;
+    transform: scale(1.1);
+    transition: all ease-in-out .7s;
+}
+
+.certificates a:hover{
+    color: #fff;
+}
 /* ################################## PIE DE PAGINA ############################################### */
 footer {
-    background-color: rgb(70, 70, 70);
+    background-color: #454545;
     padding: 50px 0 20px 0;
     overflow: hidden;
     display: flex;
